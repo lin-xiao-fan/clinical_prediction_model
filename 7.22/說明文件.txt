@@ -1,0 +1,12 @@
+test_adc_to_gram_clincal.py 負責在規定的time裡取peak值
+從raw_data拿出文件，處理好後放進clinical_gram的文件夾
+
+test_pred_clinical.py負責拿數據丟進模型進行預測
+請把要預測的文件和程式放在同一頁
+
+test_fatigue.py負責把數據拿去訓練並生成模型
+使用new_features_gram裡的數據
+
+svm_model.pkl是生成出來的模型
+
+使用前必須要根據資料夾和資料名稱進行更改程式或是更改資料夾和數據名稱
